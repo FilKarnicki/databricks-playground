@@ -17,7 +17,7 @@ df.agg(
     f.max_by("Date", "High").alias("Date"),
     f.max("High").alias("High"),
     f.max_by("Low", "High").alias("Low")
-).show()
+).display()
 
 
 # COMMAND ----------
